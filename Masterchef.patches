@@ -1,0 +1,176 @@
+{
+  "id": "1210304827e3291f514ddea3e2452b7997b583",
+  "revision": "2068444827e3291f514ddea3e2452b7997b583",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:143066-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPatch": "template_patch_model:143060-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:143064-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:143068-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPatch": "template_patch_model:143064-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:143062-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:148452-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPatch": "template_patch_model:147106-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:148450-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:148456-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPatch": "template_patch_model:148450-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:145752-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:121118-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "subpatches": [
+          "consumer_patch_model:143062-4827e329-1f51-4dde-a3e2-452b7997b583",
+          "consumer_patch_model:145752-4827e329-1f51-4dde-a3e2-452b7997b583",
+          "template_patch_model:143060-4827e329-1f51-4dde-a3e2-452b7997b583",
+          "template_patch_model:143064-4827e329-1f51-4dde-a3e2-452b7997b583",
+          "template_patch_model:147106-4827e329-1f51-4dde-a3e2-452b7997b583",
+          "template_patch_model:148450-4827e329-1f51-4dde-a3e2-452b7997b583"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "saasfgasg",
+        "identifier": "consumer_patch_model:143062-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "object": "master3_d_object_model:134951-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "objectProperty": "rotation",
+        "position": [
+          860,
+          68
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                -0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "bdb9d324e9c2_4k_high_detailed_ma",
+        "identifier": "consumer_patch_model:145752-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "object": "master3_d_object_model:123442-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "objectProperty": "visible",
+        "position": [
+          980,
+          332
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:143060-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "position": [
+          279.6999999999997,
+          77.64999999999998
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 5
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:143064-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "position": [
+          498.6999999999997,
+          77.64999999999998
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                359,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "identifier": "template_patch_model:147106-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "position": [
+          380,
+          332
+        ],
+        "templateId": "builtin.tapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:148450-4827e329-1f51-4dde-a3e2-452b7997b583",
+        "position": [
+          668,
+          332
+        ],
+        "templateId": "builtin.toggle"
+      }
+    ]
+  }
+}

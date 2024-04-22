@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Face_Mask_Template",
+  "identifier": "texture:168571-4827e329-1f51-4dde-a3e2-452b7997b583",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "6f289452367e7bfe0d018959ced22037",
+  "assetLocator": "textures/Face_Mask_Template.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "6f289452367e7bfe0d018959ced22037",
+      "colorCount": 60042,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.550025194672424,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

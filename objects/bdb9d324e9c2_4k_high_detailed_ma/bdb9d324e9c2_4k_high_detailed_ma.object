@@ -1,0 +1,90 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "bdb9d324e9c2_4k_high_detailed_ma",
+  "identifier": "master3_d_object_model:122865-4827e329-1f51-4dde-a3e2-452b7997b583",
+  "sourceIdentifier": "asset_collection_model:122869-4827e329-1f51-4dde-a3e2-452b7997b583",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.7542287111282349,
+  "globalScaleFactor": 1,
+  "height": 0.8535693883895874,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.9938284158706665,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "mesh",
+      "identifier": "mesh:122853-4827e329-1f51-4dde-a3e2-452b7997b583",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "nodeName": "mesh",
+      "numberOfFaces": 32460,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:122857-4827e329-1f51-4dde-a3e2-452b7997b583",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": -0,
+        "rz": 0,
+        "sx": 192.08119201660156,
+        "sy": 192.08119201660156,
+        "sz": 192.08119201660156,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:122855-4827e329-1f51-4dde-a3e2-452b7997b583",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:122860-4827e329-1f51-4dde-a3e2-452b7997b583",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:122845-4827e329-1f51-4dde-a3e2-452b7997b583",
+              "surfaceGroupIdentifier": "122861-4827e329-1f51-4dde-a3e2-452b7997b583"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface1",
+              "identifier": "surface:122863-4827e329-1f51-4dde-a3e2-452b7997b583",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_material_model:122845-4827e329-1f51-4dde-a3e2-452b7997b583",
+              "surfaceGroupIdentifier": "122861-4827e329-1f51-4dde-a3e2-452b7997b583"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

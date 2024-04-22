@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "storm_cortana_default_hair_diff(1)",
+  "identifier": "texture:139130-4827e329-1f51-4dde-a3e2-452b7997b583",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "e540d1efb1a09bb1cbca84263f641a08",
+  "assetLocator": "textures/storm_cortana_default_hair_diff(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "e540d1efb1a09bb1cbca84263f641a08",
+      "colorCount": 13434,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.421212752963456,
+      "pixelsHigh": 512,
+      "pixelsWide": 1024
+    }
+  ]
+}
